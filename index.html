@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <script src="timer.js">
+    </script>
+  </head>
+  <body onload="initialize()">
+    <table id="table" border="5" align='center'>
+      <tr>
+        <td align='center'>
+          <button onclick="start1()">Start1</button>
+        </td>
+        <td align='center'>
+          <button onclick="start2()">Start2</button>
+        </td>
+      </tr>
+      <tr>
+        <td>
+          <canvas width="50" height="20" id="c1" style="border:5px solid #000000;">
+          </canvas>
+        </td>
+        <td>
+          <canvas width="50" height="20" id="c2" style="border:5px solid #000000;">
+          </canvas>
+        </td>
+      </tr>
+      <tr>
+        <td align='center' colspan="2">
+          <button onclick="reset()">Reset</button>
+        </td>
+      </tr>
+      <tr>
+      </tr>
+    </table>
+  </body>
+</html>
