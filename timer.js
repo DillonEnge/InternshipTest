@@ -1,5 +1,5 @@
 var timeInSeconds1, timeInSeconds2
-var matchTime = 10
+var matchTime = 240
 var start1Clicked, start2Clicked
 var canvas1, canvas2
 var ctx1, ctx2
